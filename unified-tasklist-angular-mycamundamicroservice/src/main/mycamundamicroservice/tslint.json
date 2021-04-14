@@ -1,0 +1,17 @@
+{
+  "extends": "../../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "mycamundamicroservice-myformkey",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "mycamundamicroservice-myformkey",
+      "kebab-case"
+    ]
+  }
+}

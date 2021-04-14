@@ -1,0 +1,16 @@
+{
+  "name": "mycamundamicroservice",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^10.1.3",
+    "@angular/core": "^10.1.3",
+    "@angular/forms": "^10.1.3",
+    "@unified-tasklist/common": "file:../../../../unified-tasklist-angular-common/dist/common"
+  },
+  "bundledDependencies": {
+    "deep-props.get": "^0.1.6"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}

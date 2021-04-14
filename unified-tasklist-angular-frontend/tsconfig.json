@@ -1,0 +1,26 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./target/classes/static/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "es2020",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "@angular/*": [ "./node_modules/@angular/*" ],
+      "app/*": ["src/main/webapp/app/*"],
+      "client/*": ["target/generated-sources/client/*"],
+      "@unified-tasklist/common/*": ["node_modules/@unified-tasklist/common/*"]
+    },
+  }
+}

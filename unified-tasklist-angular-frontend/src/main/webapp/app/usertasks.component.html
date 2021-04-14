@@ -1,0 +1,10 @@
+<ol>
+  <li *ngFor="let task of tasks">
+    <a href="javascript://" (click)="selectTask(task)">{{task.id}}</a>: ({{task.status}})
+  </li>
+</ol>
+
+<span *ngIf="selectedTask">
+  <h2>UserTask form <span *ngIf="selectedTask">({{selectedTask.id}})</span></h2>
+  <app-usertask [taskId]="selectedTask.id"></app-usertask>
+</span>

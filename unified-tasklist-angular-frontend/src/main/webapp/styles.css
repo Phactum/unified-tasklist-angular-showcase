@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* added an unused class because otherwise the css file is empty and
+   Spring Boot does not serve zero byte files */
+.unused {
+  color: red;
+}
